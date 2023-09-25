@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "img": "./assets/Health1.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category-bg-color": "#0052FF33",
+    "card-bg-color": "#0052FFFF",
+    "text-color": "#0052FF",
+    "description": "In many parts of the world, children face a daily struggle to access clean, safe water. Join us on a journey to explore the critical issue of providing clean water to children in need. This mission is not just about hydration; it's about unlocking a brighter, healthier future for the next generation.",
+    "price": 290
+  },
+  {
+    "id": 2,
+    "img": "./assets/Education1.png",
+    "title": "Good education",
+    "category": "Education",
+    "category-bg-color": "#FF442133",
+    "card-bg-color": "#FF442626",
+    "text-color": "#FF444A",
+    "description": "In a rapidly evolving world, education stands as the key to unlocking the boundless potential within every individual. This description promises a deep dive into the transformative force of education, showcasing its capacity to shape lives, foster critical thinking, and drive positive change.",
+    "price": 300
+  },
+  {
+    "id": 3,
+    "img": "./assets/Clothing1.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category-bg-color": "#79C23333",
+    "card-bg-color": "#79C23F26",
+    "text-color": "#79C23F",
+    "description": "The collected clothing is then distributed to individuals or organizations in need. This can include homeless shelters, refugee centers, low-income communities, disaster relief efforts, or charitable organizations",
+    "price": 250
+  },
+  {
+    "id": 4,
+    "img": "./assets/Food1.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category-bg-color": "#F8714733",
+    "card-bg-color": "#F8714726",
+    "text-color": "#F87147",
+    "description": "In an era where dietary choices are increasingly recognized for their impact on both personal well-being and environmental sustainability, this description invites you to embark on a journey of culinary discovery and conscious eating",
+    "price": 270
+  },
+  {
+    "id": 5,
+    "img": "./assets/food2.jpg",
+    "title": "Food as a Global Language",
+    "category": "Food",
+    "category-bg-color": "#F8714733",
+    "card-bg-color": "#F8714726",
+    "text-color": "#F87147",
+    "description": "Learn about the choices we make in our daily diets and how they can influence not only our health but also the health of the planet. Discover the principles of sustainable agriculture, ethical sourcing, and responsible consumption that can lead to a healthier, more equitable food system.",
+    "price": 270
+  },
+  {
+    "id": 6,
+    "img": "./assets/clothing2.avif",
+    "title": "The Psychology of Clothing",
+    "category": "Clothing",
+    "category-bg-color": "#79C23333",
+    "card-bg-color": "#79C23F26",
+    "text-color": "#79C23F",
+    "description": "Step into the world of fashion and self-expression with this captivating exploration of clothing and style. In a society where personal presentation has become a canvas for individuality, Threads of Style invites you to uncover the stories, trends, and cultural influences that shape the way we dress.",
+    "price": 250
+  },
+  {
+    "id": 7,
+    "img": "./assets/education2.avif",
+    "title": "A Journey Through Education",
+    "category": "Education",
+    "category-bg-color": "#FF442133",
+    "card-bg-color": "#FF442626",
+    "text-color": "#FF444A",
+    "description": "This title invites you to embark on an inspiring and enlightening expedition, celebrating the boundless potential of education to shape a brighter future for all. Join us in championing the cause of empowering minds and building a world where education is a beacon of hope and opportunity.",
+    "price": 300
+  },
+  {
+    "id": 8,
+    "img": "./assets/health2.avif",
+    "title": "Strategies for a Healthy Life",
+    "category": "Health",
+    "category-bg-color": "#0052FF33",
+    "card-bg-color": "#0052FFFF",
+    "text-color": "#0052FF",
+    "description": "Discover the latest trends in nutrition, fitness, mental health, and mindfulness as experts and enthusiasts share their knowledge and experiences. Explore practical tips, evidence-based advice, and empowering stories that inspire positive transformations.",
+    "price": 290
+  },
+  {
+    "id": 9,
+    "img": "./assets/health3.avif",
+    "title": "Nurturing a Healthier You",
+    "category": "Health",
+    "category-bg-color": "#0052FF33",
+    "card-bg-color": "#0052FFFF",
+    "text-color": "#0052FF",
+    "description": "Gain insights into the fundamental aspects of healthcare, from understanding medical procedures to making informed decisions about your well-being, ensuring you are well-equipped to navigate the healthcare system.",
+    "price": 290
+  },
+  {
+    "id": 10,
+    "img": "./assets/education3.avif",
+    "title": "Bridging the Knowledge Gap",
+    "category": "Education",
+    "category-bg-color": "#FF442133",
+    "card-bg-color": "#FF442626",
+    "text-color": "#FF444A",
+    "description": "Delve into the stories of educators, students, and visionaries who have dedicated themselves to the cause of education, striving to provide accessible, inclusive, and effective learning experiences. Discover the key principles and innovations shaping modern education, emphasizing its role as a catalyst for personal growth, social progress, and economic development",
+    "price": 300
+  },
+  {
+    "id": 11,
+    "img": "./assets/clothing3.avif",
+    "title": "Eco-Friendly Fashion Choices",
+    "category": "Clothing",
+    "category-bg-color": "#79C23333",
+    "card-bg-color": "#79C23F26",
+    "text-color": "#79C23F",
+    "description": "Embark on a sartorial journey through history, from the evolution of fashion in ancient civilizations to contemporary haute couture. Learn about the impact of sustainable and ethical fashion on our planet, and gain insights into how clothing choices can reflect one's personality and aspirations.",
+    "price": 250
+  },
+  {
+    "id": 12,
+    "img": "./assets/food3.avif",
+    "title": "The Art of Food Appreciation",
+    "category": "Food",
+    "category-bg-color": "#F8714733",
+    "card-bg-color": "#F8714726",
+    "text-color": "#F87147",
+    "description": "Through engaging stories, expert insights, and practical tips, this exploration advocates for better food choices that nourish not only our bodies but also the Earth. Join us in the quest for better food for everyone, where each meal becomes an opportunity to make a positive impact, fostering a healthier future for all.",
+    "price": 270
+  }
+]
