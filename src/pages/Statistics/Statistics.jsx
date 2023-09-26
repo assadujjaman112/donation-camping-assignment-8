@@ -1,11 +1,64 @@
-
+import { useLoaderData } from "react-router-dom";
+import { Cell, Legend, Pie, PieChart } from "recharts";
 
 const Statistics = () => {
+  const donations = useLoaderData();
+
+  const donatedItems = JSON.parse(localStorage.getItem("donates"));
+  const yourDonation = donatedItems.length;
+  const donationLeft = donations.length - yourDonation;
+  const data = [
+    { name: "totalDonation", value: donationLeft },
+    { name: "yourDonation", value: yourDonation },
+  ];
+  const COLORS = ["#0088FE", "#00C49F"];
+  const RADIAN = Math.PI / 180;
+  const renderCustomizedLabel = ({
+    cx,
+    cy,
+    midAngle,
+    innerRadius,
+    outerRadius,
+    percent,
+  }) => {
+    const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+    const x = cx + radius * Math.cos(-midAngle * RADIAN);
+    const y = cy + radius * Math.sin(-midAngle * RADIAN);
+
     return (
-        <div>
-            <h3>Statistics</h3>
-        </div>
+      <text
+        x={x}
+        y={y}
+        fill="white"
+        textAnchor={x > cx ? "start" : "end"}
+        dominantBaseline="central"
+      >
+        {`${(percent * 100).toFixed(0)}%`}
+      </text>
     );
+  };
+
+  return (
+    <div className="flex justify-center">
+      <PieChart width={400} height={400}>
+        <Legend ></Legend>
+        <Pie
+          data={data}
+          cx="50%"
+          cy="50%"
+          labelLine={false}
+          label={renderCustomizedLabel}
+          outerRadius={80}
+          fill="#8884d8"
+          dataKey="value"
+        >
+          {data.map((entry, index) => (
+            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+          ))}
+        </Pie>
+      </PieChart>
+    </div>
+  );
 };
 
 export default Statistics;
