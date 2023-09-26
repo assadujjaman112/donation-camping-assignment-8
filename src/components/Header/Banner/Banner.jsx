@@ -16,6 +16,7 @@ const Banner = () => {
             type="text"
             className="border border-[#DEDEDE] py-2 rounded-l-lg px-10"
             name=""
+            placeholder="Search here...."
             id=""
           />
           <button className="bg-[#FF444A] px-5 py-2 text-white rounded-r-lg">
