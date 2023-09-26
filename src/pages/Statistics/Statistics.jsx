@@ -1,3 +1,5 @@
+
+
 import { useLoaderData } from "react-router-dom";
 import { Cell, Legend, Pie, PieChart } from "recharts";
 
@@ -5,11 +7,12 @@ const Statistics = () => {
   const donations = useLoaderData();
 
   const donatedItems = JSON.parse(localStorage.getItem("donates"));
-  const yourDonation = donatedItems.length;
+  const yourDonation = donatedItems?.length;
   const donationLeft = donations.length - yourDonation;
+
   const data = [
-    { name: "totalDonation", value: donationLeft },
-    { name: "yourDonation", value: yourDonation },
+    { name: "Donation Left", value: donationLeft },
+    { name: "Your Donation", value: yourDonation },
   ];
   const COLORS = ["#0088FE", "#00C49F"];
   const RADIAN = Math.PI / 180;
@@ -41,7 +44,7 @@ const Statistics = () => {
   return (
     <div className="flex justify-center">
       <PieChart width={400} height={400}>
-        <Legend ></Legend>
+        <Legend></Legend>
         <Pie
           data={data}
           cx="50%"

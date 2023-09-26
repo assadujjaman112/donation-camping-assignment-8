@@ -19,14 +19,14 @@ const Donations = () => {
   return (
     <div>
       {noDataFound ? (
-        <p className="flex justify-center items-center h-[80vh] text-3xl">
+        <p className="flex justify-center text-red-400 font-extrabold items-center h-[80vh] text-3xl">
           {noDataFound}
         </p>
       ) : (
         <div>
           <div className="w-4/5 mx-auto grid grid-cols-2 gap-5 my-10">
             {isShow
-              ? donations.map((donation) => (
+              ? donations?.map((donation) => (
                   <DonatedCard
                     key={donation.id}
                     donation={donation}
@@ -34,7 +34,7 @@ const Donations = () => {
                 ))
               : donations
                   .slice(0, 4)
-                  .map((donation) => (
+                  ?.map((donation) => (
                     <DonatedCard
                       key={donation.id}
                       donation={donation}
@@ -43,7 +43,7 @@ const Donations = () => {
           </div>
         </div>
       )}
-      {donations.length >= 4 && (
+      {donations?.length >= 4 && (
         <div
           className={`flex justify-center my-5 ${isShow && "hidden"} ${
             noDataFound && "hidden"
