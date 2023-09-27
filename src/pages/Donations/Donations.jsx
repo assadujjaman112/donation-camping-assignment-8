@@ -24,7 +24,7 @@ const Donations = () => {
         </p>
       ) : (
         <div>
-          <div className="w-4/5 mx-auto grid grid-cols-2 gap-5 my-10">
+          <div className="w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 my-10">
             {isShow
               ? donations?.map((donation) => (
                   <DonatedCard
